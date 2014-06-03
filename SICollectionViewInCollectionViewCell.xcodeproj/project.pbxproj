@@ -15,13 +15,17 @@
 		8F044F1D193E46EF00707E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F1C193E46EF00707E75 /* AppDelegate.m */; };
 		8F044F20193E46EF00707E75 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F044F1E193E46EF00707E75 /* Main_iPhone.storyboard */; };
 		8F044F23193E46EF00707E75 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F044F21193E46EF00707E75 /* Main_iPad.storyboard */; };
-		8F044F26193E46EF00707E75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F25193E46EF00707E75 /* ViewController.m */; };
 		8F044F28193E46EF00707E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F044F27193E46EF00707E75 /* Images.xcassets */; };
 		8F044F2F193E46EF00707E75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F044F2E193E46EF00707E75 /* XCTest.framework */; };
 		8F044F30193E46EF00707E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F044F0C193E46EF00707E75 /* Foundation.framework */; };
 		8F044F31193E46EF00707E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F044F10193E46EF00707E75 /* UIKit.framework */; };
 		8F044F39193E46EF00707E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F044F37193E46EF00707E75 /* InfoPlist.strings */; };
 		8F044F3B193E46EF00707E75 /* SICollectionViewInCollectionViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F3A193E46EF00707E75 /* SICollectionViewInCollectionViewCellTests.m */; };
+		8F044F46193E47BA00707E75 /* SIOuterCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F45193E47BA00707E75 /* SIOuterCollectionViewController.m */; };
+		8F044F49193E47D700707E75 /* SIInnerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F48193E47D700707E75 /* SIInnerCollectionViewController.m */; };
+		8F044F4C193E484C00707E75 /* SIOuterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F4B193E484C00707E75 /* SIOuterCollectionViewCell.m */; };
+		8F044F4F193E485F00707E75 /* SIInnerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F4E193E485F00707E75 /* SIInnerCollectionViewCell.m */; };
+		8F044F52193E599000707E75 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F044F51193E599000707E75 /* UIColor+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +51,22 @@
 		8F044F1C193E46EF00707E75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8F044F1F193E46EF00707E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		8F044F22193E46EF00707E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8F044F24193E46EF00707E75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F044F25193E46EF00707E75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F044F27193E46EF00707E75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F044F2D193E46EF00707E75 /* SICollectionViewInCollectionViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SICollectionViewInCollectionViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F044F2E193E46EF00707E75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F044F36193E46EF00707E75 /* SICollectionViewInCollectionViewCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SICollectionViewInCollectionViewCellTests-Info.plist"; sourceTree = "<group>"; };
 		8F044F38193E46EF00707E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F044F3A193E46EF00707E75 /* SICollectionViewInCollectionViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SICollectionViewInCollectionViewCellTests.m; sourceTree = "<group>"; };
+		8F044F44193E47BA00707E75 /* SIOuterCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIOuterCollectionViewController.h; sourceTree = "<group>"; };
+		8F044F45193E47BA00707E75 /* SIOuterCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIOuterCollectionViewController.m; sourceTree = "<group>"; };
+		8F044F47193E47D700707E75 /* SIInnerCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIInnerCollectionViewController.h; sourceTree = "<group>"; };
+		8F044F48193E47D700707E75 /* SIInnerCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIInnerCollectionViewController.m; sourceTree = "<group>"; };
+		8F044F4A193E484C00707E75 /* SIOuterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIOuterCollectionViewCell.h; sourceTree = "<group>"; };
+		8F044F4B193E484C00707E75 /* SIOuterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIOuterCollectionViewCell.m; sourceTree = "<group>"; };
+		8F044F4D193E485F00707E75 /* SIInnerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIInnerCollectionViewCell.h; sourceTree = "<group>"; };
+		8F044F4E193E485F00707E75 /* SIInnerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIInnerCollectionViewCell.m; sourceTree = "<group>"; };
+		8F044F50193E599000707E75 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		8F044F51193E599000707E75 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +130,16 @@
 				8F044F1C193E46EF00707E75 /* AppDelegate.m */,
 				8F044F1E193E46EF00707E75 /* Main_iPhone.storyboard */,
 				8F044F21193E46EF00707E75 /* Main_iPad.storyboard */,
-				8F044F24193E46EF00707E75 /* ViewController.h */,
-				8F044F25193E46EF00707E75 /* ViewController.m */,
+				8F044F50193E599000707E75 /* UIColor+Random.h */,
+				8F044F51193E599000707E75 /* UIColor+Random.m */,
+				8F044F44193E47BA00707E75 /* SIOuterCollectionViewController.h */,
+				8F044F45193E47BA00707E75 /* SIOuterCollectionViewController.m */,
+				8F044F4A193E484C00707E75 /* SIOuterCollectionViewCell.h */,
+				8F044F4B193E484C00707E75 /* SIOuterCollectionViewCell.m */,
+				8F044F47193E47D700707E75 /* SIInnerCollectionViewController.h */,
+				8F044F48193E47D700707E75 /* SIInnerCollectionViewController.m */,
+				8F044F4D193E485F00707E75 /* SIInnerCollectionViewCell.h */,
+				8F044F4E193E485F00707E75 /* SIInnerCollectionViewCell.m */,
 				8F044F27193E46EF00707E75 /* Images.xcassets */,
 				8F044F13193E46EF00707E75 /* Supporting Files */,
 			);
@@ -253,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F044F26193E46EF00707E75 /* ViewController.m in Sources */,
+				8F044F52193E599000707E75 /* UIColor+Random.m in Sources */,
 				8F044F1D193E46EF00707E75 /* AppDelegate.m in Sources */,
+				8F044F49193E47D700707E75 /* SIInnerCollectionViewController.m in Sources */,
+				8F044F46193E47BA00707E75 /* SIOuterCollectionViewController.m in Sources */,
 				8F044F19193E46EF00707E75 /* main.m in Sources */,
+				8F044F4C193E484C00707E75 /* SIOuterCollectionViewCell.m in Sources */,
+				8F044F4F193E485F00707E75 /* SIInnerCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

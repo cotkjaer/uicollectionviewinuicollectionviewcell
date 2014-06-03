@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SIInnerCollectionViewController.h
 //  SICollectionViewInCollectionViewCell
 //
 //  Created by Christian Otkjær on 03/06/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SIInnerCollectionViewController : UICollectionViewController
+
 
 @end
